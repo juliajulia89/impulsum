@@ -1,5 +1,6 @@
-import { Text, Flex, Image } from "@chakra-ui/react";
+import { Text, Flex, Image, Icon } from "@chakra-ui/react";
 import { Button } from "@chakra-ui/react";
+import logo from "../images/ComposerLogo.svg";
 
 const Navbar = () => {
   return (
@@ -9,8 +10,8 @@ const Navbar = () => {
           <Image
             background="background-dark"
             ml={["spacer-4", "spacer-16"]}
-            src="./images/ComposerLogo.svg"
-            
+            src={logo}
+            alt="ComposerLogo"
           />
           <Text
             textStyle="text-header-L"
@@ -26,11 +27,9 @@ const Navbar = () => {
           color="accent-default"
           background="text-button-accent"
         >
-          Request your free demo 
+          Request your free demo <Icon name="arrow-forward" />
         </Button>
       </Flex>
-      
-     
     </main>
   );
 };

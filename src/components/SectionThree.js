@@ -1,4 +1,6 @@
 import { Box, Text, Flex, Image } from "@chakra-ui/react";
+import imageOne from "../images/DesignSystemTool.svg"
+import imageTwo from "../images/ComponentCatalog.svg"
 
 const SectionThree = () => {
   return (
@@ -25,7 +27,7 @@ const SectionThree = () => {
           mr={["spacer-4", "spacer-8"]}
           width={["spacer-0", "40%"]}
         >
-          <Image src="./images/DesignSystemTool.svg" />
+          <Image src={imageOne} alt="DesignSystemTool" />
           <Text
             pl={["spacer-4", "spacer-8"]}
             pr={["spacer-4", "spacer-16"]}
@@ -55,7 +57,7 @@ const SectionThree = () => {
           width={["spacer-0", "40%"]}
           pt={["spacer-28", "spacer-0"]}
         >
-          <Image src="./images/ComponentCatalog.svg" />
+          <Image src={imageTwo} alt="ComponentCatalog" />
           <Text
             pl={["spacer-4", "spacer-8"]}
             pr={["spacer-4", "spacer-16"]}

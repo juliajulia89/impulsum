@@ -1,4 +1,5 @@
 import { Flex, Box, Image, Text } from "@chakra-ui/react";
+import image from "../images/Business.svg"
 
 const SectionOne = () => {
   return (
@@ -10,7 +11,7 @@ const SectionOne = () => {
         alignItems="center"
         flexDirection={["column-reverse", "row"]}
       >
-        <Image src="./images/Business.svg" />
+        <Image src={image} alt="Business" />
         <Box mr="spacer-32rem" textAlign={["center", "start"]}>
           <Text
             mt="spacer-4"
@@ -30,7 +31,6 @@ const SectionOne = () => {
             With our drag-and-drop web editor and customizable professional
             templates that fit your brand, you'll be online in no time.
           </Text>
-         
         </Box>
       </Flex>
     </>

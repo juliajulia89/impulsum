@@ -1,4 +1,5 @@
 import { Flex, Box, Image, Text } from "@chakra-ui/react";
+import image from "../images/Marketing.svg"
 
 const SectionTwo = () => {
   return (
@@ -32,7 +33,7 @@ const SectionTwo = () => {
             A/B testing and analytical insights.
           </Text>
         </Box>
-        <Image src="./images/Marketing.svg" />
+        <Image src={image} alt="Marketing" />
       </Flex>
     </>
   );

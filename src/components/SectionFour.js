@@ -1,4 +1,6 @@
 import { Box, Text, Button, Image, Link } from "@chakra-ui/react";
+import imageFigma from "../images/Figma.svg"
+import imageGithub from "../images/Github.svg"
 
 const SectionFour = () => {
   return (
@@ -24,7 +26,7 @@ const SectionFour = () => {
           Request your free demo 
         </Button>
          <Box width={["null", "20%"]} ml={["spacer-8", "spacer-0"]}>
-          <Image src="./images/Github.svg" />
+          <Image src={imageGithub} alt="GithubLogo" />
           <Text textStyle="text-header-L" pt="spacer-4">
             Composer is open-sourced on GitHub. You're welcome to contribute.
           </Text>
@@ -43,7 +45,7 @@ const SectionFour = () => {
           ml={["spacer-8", "spacer-0"]}
           mt={["spacer-8", "spacer-0"]}
         >
-          <Image src="./images/Figma.svg" />
+          <Image src={imageFigma} alt="Figmalogo" />
           <Text textStyle="text-header-L" pt="spacer-4">
             Composer is part of the Figma community. Visit us with handle
             @impulsum

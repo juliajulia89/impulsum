@@ -1,4 +1,5 @@
 import { Flex, Box, Image, Text, Link } from "@chakra-ui/react";
+import logo from "../images/ComposerLogo.svg"
 
 const Footer = () => {
   return (
@@ -25,7 +26,7 @@ const Footer = () => {
         <Image
           mt={["spacer-16", "spacer-0"]}
           mr={["spacer-0", "spacer-32"]}
-          src="./images/ComposerLogo.svg"
+          src={logo} alt="ComposerLogo"
         />
       </Flex>
     </Box>
