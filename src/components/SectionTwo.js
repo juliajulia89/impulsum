@@ -1,5 +1,5 @@
 import { Flex, Box, Image, Text } from "@chakra-ui/react";
-import image from "../images/Marketing.svg"
+import image from "../images/Marketing.svg";
 
 const SectionTwo = () => {
   return (
@@ -26,7 +26,11 @@ const SectionTwo = () => {
           >
             Get better conversion rates
           </Text>
-          <Text mt="spacer-4" textStyle="text-body-regular">
+          <Text
+            color="text-secondary"
+            mt="spacer-4"
+            textStyle="text-body-regular"
+          >
             We help you create high-converting landing pages, engaging popups,
             integrated SEO and social media integrations to reach a wider
             audience and optimize conversion rates using precise and customized

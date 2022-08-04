@@ -1,4 +1,5 @@
-import { Text, Flex, Image, Icon } from "@chakra-ui/react";
+import { Text, Flex, Image } from "@chakra-ui/react";
+import { ArrowForwardIcon } from "@chakra-ui/icons";
 import { Button } from "@chakra-ui/react";
 import logo from "../images/ComposerLogo.svg";
 
@@ -27,7 +28,7 @@ const Navbar = () => {
           color="accent-default"
           background="text-button-accent"
         >
-          Request your free demo <Icon name="arrow-forward" />
+          Request your free demo <ArrowForwardIcon />
         </Button>
       </Flex>
     </main>

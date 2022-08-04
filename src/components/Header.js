@@ -1,10 +1,10 @@
-import { Text} from "@chakra-ui/react";
+import { Text } from "@chakra-ui/react";
+import { ArrowForwardIcon } from "@chakra-ui/icons";
 import { Button } from "@chakra-ui/react";
 
 const Header = () => {
   return (
     <main className="body">
-      
       <Text
         pt="spacer-24"
         ml={["spacer-4", "spacer-52"]}
@@ -19,6 +19,7 @@ const Header = () => {
         mr={["spacer-4", "spacer-86"]}
         mt="spacer-8"
         textStyle="text-body-regular"
+        color="text-secondary"
       >
         Introducing Composer - the most advanced web and landing page builder
         for non-programmers that helps you to speed up your digital production
@@ -30,7 +31,7 @@ const Header = () => {
         color="accent-default"
         background="text-button-accent"
       >
-        Request your free demo
+        Request your free demo <ArrowForwardIcon />
       </Button>
     </main>
   );

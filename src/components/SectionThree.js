@@ -1,11 +1,11 @@
 import { Box, Text, Flex, Image } from "@chakra-ui/react";
-import imageOne from "../images/DesignSystemTool.svg"
-import imageTwo from "../images/ComponentCatalog.svg"
+import imageOne from "../images/DesignSystemTool.svg";
+import imageTwo from "../images/ComponentCatalog.svg";
 
 const SectionThree = () => {
   return (
     <Box background="background-page" color="#fff" pb="spacer-32">
-      <Text textStyle="text-header-2XL" pt="spacer-24">
+      <Text color="white" textStyle="text-header-2XL" pt="spacer-24">
         We have got what you need
       </Text>
       <Text
@@ -13,6 +13,7 @@ const SectionThree = () => {
         pt="spacer-4"
         pr={["spacer-8", "spacer-0"]}
         pl={["spacer-8", "spacer-0"]}
+        color="text-secondary"
       >
         Learn more about the amazing features our team is developing.
       </Text>
@@ -33,6 +34,7 @@ const SectionThree = () => {
             pr={["spacer-4", "spacer-16"]}
             pt="spacer-4"
             textStyle="text-header-XL"
+            color="white"
           >
             Apply your Brand Identity into our{" "}
             <Text as="span" color="text-link-primary-default">
@@ -44,6 +46,7 @@ const SectionThree = () => {
             pr={["spacer-4", "spacer-16"]}
             pt="spacer-4"
             textStyle="text-body-regular"
+            color="text-secondary"
           >
             We have created the most flexible Design System tool to enable you
             to easily deploy your brand colour scheme, fonts, images, and style
@@ -63,6 +66,7 @@ const SectionThree = () => {
             pr={["spacer-4", "spacer-16"]}
             pt="spacer-4"
             textStyle="text-header-XL"
+            color="white"
           >
             Get our perfect branded and coded{" "}
             <Text as="span" color="text-link-primary-default">
@@ -74,6 +78,7 @@ const SectionThree = () => {
             pr={["spacer-4", "spacer-16"]}
             pt="spacer-4"
             textStyle="text-body-regular"
+            color="text-secondary"
           >
             Once your brand themeing is applied you can rapidly launch modern
             experiences with a space grade React component catalog based on the

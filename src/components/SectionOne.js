@@ -27,7 +27,11 @@ const SectionOne = () => {
           >
             We support the way you run your business
           </Text>
-          <Text mt="spacer-4" textStyle="text-body-regular">
+          <Text
+            color="text-secondary"
+            mt="spacer-4"
+            textStyle="text-body-regular"
+          >
             With our drag-and-drop web editor and customizable professional
             templates that fit your brand, you'll be online in no time.
           </Text>

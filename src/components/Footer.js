@@ -3,7 +3,7 @@ import logo from "../images/ComposerLogo.svg"
 
 const Footer = () => {
   return (
-    <Box>  
+    <Box>
       <Flex
         pt="spacer-48"
         pb="spacer-12"
@@ -15,6 +15,7 @@ const Footer = () => {
           ml={["spacer-4", "spacer-32"]}
           mr={["spacer-4, spacer-0"]}
           textStyle="text-body-regular"
+          color="text-secondary"
         >
           © 2022 Composer. Proudly powered by{" "}
           <Text as="span" color="text-link-primary-default">
@@ -26,7 +27,8 @@ const Footer = () => {
         <Image
           mt={["spacer-16", "spacer-0"]}
           mr={["spacer-0", "spacer-32"]}
-          src={logo} alt="ComposerLogo"
+          src={logo}
+          alt="ComposerLogo"
         />
       </Flex>
     </Box>
